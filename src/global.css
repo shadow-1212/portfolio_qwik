@@ -11,48 +11,14 @@
 
 
 :root {
-  --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #18b6f6;
-  --qwik-light-purple: #ac7ff4;
-  --qwik-dark-purple: #713fc2;
+    --qwik-dark-blue: #006ce9;
+    --qwik-light-blue: #18b6f6;
+    --qwik-light-purple: #ac7ff4;
+    --qwik-dark-purple: #713fc2;
 }
 
-body {
-  background-color: #fafafa;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  padding: 20px 20px 40px 20px;
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
-main {
-  max-width: 760px;
-  margin: 0 auto;
-  background-color: white;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-h1,
-h2 {
-  margin: 0 0 5px 0;
-}
-
-ul {
-  list-style-type: square;
-  margin: 5px 0 30px 0;
-  padding-left: 25px;
-}
-
-li {
-  padding: 8px 0;
-}
-
-
-a,
-a:visited {
-  color: var(--qwik-dark-blue);
-}
-
-a:hover {
-  text-decoration: none;
-}
-

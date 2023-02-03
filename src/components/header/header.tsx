@@ -2,17 +2,18 @@ import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './header.css?inline';
 
 export default component$(() => {
+
   useStylesScoped$(styles);
   return (
     <header>
       <div class="logo">
-        <a href="#" title="logo">
+        <a href="/" title="logo">
           Logo {/*TODO*/}
         </a>
       </div>
       <ul>
         <li>
-          <a href="#" >
+          <a href="/about" >
             About
           </a>
         </li>
