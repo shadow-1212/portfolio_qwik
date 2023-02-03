@@ -1,7 +1,6 @@
 header {
   display: flex;
   background: white;
-  border-bottom: 10px solid var(--qwik-dark-purple);
 }
 
 header .logo a {
@@ -29,6 +28,3 @@ header li a {
   text-decoration: none;
 }
 
-header li a:hover {
-  text-decoration: underline;
-}
